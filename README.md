@@ -1,2 +1,2 @@
 # Crtp-Example
-Curiously Recurring Template Pattern C++ Example
+Curiously Recurring Template Pattern C++ Example.

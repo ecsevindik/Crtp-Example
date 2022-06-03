@@ -12,8 +12,6 @@ public:
 
     void sleep() {asDerived()->sleep();}
 
-protected:
-
     Animal() = default;
     ~Animal() = default;
     Animal(const Animal&) = delete; // Copy-constructor delete

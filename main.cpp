@@ -6,7 +6,7 @@
 int main() {
 
     std::string dogName = "Karabas";
-    auto animalDog = std::make_unique<Dog>(dogName);
+    std::unique_ptr<Animal<Dog>> animalDog = std::make_unique<Dog>(dogName);
     animalDog->eat();
     animalDog->sleep();
 
