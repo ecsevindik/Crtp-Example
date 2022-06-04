@@ -34,7 +34,7 @@ endif()
 include(include/CMakeLists.txt)
 include(src/CMakeLists.txt)
 
-add_library(${PROJECT_NAME} SHARED
+add_library(${PROJECT_NAME} STATIC
     ${HEADERS}
     ${SOURCEFILES}
     )
